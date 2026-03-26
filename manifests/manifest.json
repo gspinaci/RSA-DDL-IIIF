@@ -1,0 +1,208 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://gspinaci.github.io/RSA-DDL-IIIF/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Blank Manifest" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/9e3pgeegxqp-mn7mjfn9",
+    "type" : "Canvas",
+    "height" : 2613,
+    "width" : 4658,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/291,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 163,
+      "width" : 291
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/9e3pgeegxqp-mn7mjfn9/annotation-page/sfla8whov-mn7mjfn9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ck6swuj2jqb-mn7milt3/annotation/favr9031rsq-mn7mjfn9",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/9e3pgeegxqp-mn7mjfn9",
+        "body" : {
+          "id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2613,
+          "width" : 4658,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848",
+            "height" : 2613,
+            "metadata" : {
+              "caption" : "recto, cropped to image",
+              "source" : "Yale Center for British Art",
+              "imageCredit" : "Digital Image: Yale Center for British Art"
+            },
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "height" : 82,
+              "width" : 146
+            }, {
+              "height" : 163,
+              "width" : 291
+            }, {
+              "height" : 327,
+              "width" : 582
+            }, {
+              "height" : 653,
+              "width" : 1165
+            }, {
+              "height" : 1307,
+              "width" : 2329
+            }, {
+              "height" : 2613,
+              "width" : 4658
+            } ],
+            "tiles" : [ {
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ],
+              "width" : 512
+            } ],
+            "width" : 4658
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/18ymkol6zlw-mn7mk42z",
+    "type" : "Canvas",
+    "height" : 2481,
+    "width" : 3183,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.wellcomecollection.org/image/V0037482/full/400,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 312,
+      "width" : 400
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/18ymkol6zlw-mn7mk42z/annotation-page/7l044zbz5tf-mn7mk42z",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ck6swuj2jqb-mn7milt3/annotation/wy304icjq6-mn7mk42z",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/18ymkol6zlw-mn7mk42z",
+        "body" : {
+          "id" : "https://iiif.wellcomecollection.org/image/V0037482/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2481,
+          "width" : 3183,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.wellcomecollection.org/image/V0037482",
+            "@type" : "iiif:Image",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 3183,
+            "height" : 2481,
+            "sizes" : [ {
+              "width" : 1024,
+              "height" : 798
+            }, {
+              "width" : 400,
+              "height" : 312
+            }, {
+              "width" : 200,
+              "height" : 156
+            }, {
+              "width" : 100,
+              "height" : 78
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/9u6ynsen61-mn7mknns",
+    "type" : "Canvas",
+    "height" : 2974,
+    "width" : 1820,
+    "label" : {
+      "en" : [ "Untitled canvas" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://iiif.wellcomecollection.org/image/b22292196_0003.jp2/full/245,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 400,
+      "width" : 245
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/9u6ynsen61-mn7mknns/annotation-page/qeyupzbz8r-mn7mknns",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/ck6swuj2jqb-mn7milt3/annotation/w5o9n0k7zvi-mn7mknns",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/ck6swuj2jqb-mn7milt3/canvas/9u6ynsen61-mn7mknns",
+        "body" : {
+          "id" : "https://iiif.wellcomecollection.org/image/b22292196_0003.jp2/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2974,
+          "width" : 1820,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.wellcomecollection.org/image/b22292196_0003.jp2",
+            "@type" : "iiif:Image",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1820,
+            "height" : 2974,
+            "sizes" : [ {
+              "width" : 627,
+              "height" : 1024
+            }, {
+              "width" : 245,
+              "height" : 400
+            }, {
+              "width" : 122,
+              "height" : 200
+            }, {
+              "width" : 61,
+              "height" : 100
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
