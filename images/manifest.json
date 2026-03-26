@@ -1,0 +1,11 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://gspinaci.github.io/RSA-DDL-IIIF/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in gspinaci/RSA-DDL-IIIF project"
+        ]
+    },
+    "items": []
+}
